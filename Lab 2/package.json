@@ -1,0 +1,19 @@
+{
+  "name": "lab-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abhishek_mishra",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "express": "^4.17.2",
+    "flat": "^5.0.2",
+    "node-redis": "^0.1.7",
+    "redis": "^3.0.2"
+  }
+}
