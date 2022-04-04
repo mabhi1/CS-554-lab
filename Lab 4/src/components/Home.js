@@ -1,36 +1,20 @@
-import React from 'react';
-import '../App.css';
+import { Container, Stack, Typography } from "@mui/material";
+import React from "react";
 
-const Home = () => {
-  return (
-    <div>
-      <p>
-        This is a simple example of using React to Query the TV Maze API. Start
-        by clicking the "Shows" button above
-      </p>
-
-      <p className='hometext'>
-        The application queries two of TV Maze's end-points:{' '}
-        <a
-          rel='noopener noreferrer'
-          target='_blank'
-          href='http://api.tvmaze.com/shows'
-        >
-          http://api.tvmaze.com/shows
-        </a>{' '}
-        and{' '}
-        <a
-          rel='noopener noreferrer'
-          target='_blank'
-          href='http://api.tvmaze.com/search/shows?q=SEARCH_TERM'
-        >
-          http://api.tvmaze.com/search/shows?q=SEARCH_TERM
-        </a>{' '}
-        for searching the shows in the API (Where SEARCH_TERM is what the user
-        types into the search input)
-      </p>
-    </div>
-  );
-};
+function Home(props) {
+    return (
+        <Container maxWidth="lg">
+            <Stack direction="column" justifyContent="center" alignItems="center" spacing={2}>
+                <Typography variant="h2">Welcome to Marvel App !</Typography>
+                <Typography variant="h3" fontSize="28px">
+                    Navigate through links to see characters, series and comics of marvel
+                </Typography>
+                <Typography variant="h3" fontSize="28px">
+                    Search your favourites and know the details of individual characters,series and comics
+                </Typography>
+            </Stack>
+        </Container>
+    );
+}
 
 export default Home;
