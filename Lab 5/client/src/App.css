@@ -1,0 +1,141 @@
+.App {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: auto;
+  font-size: large;
+}
+
+.App-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: auto;
+  background-color: #282c34f0;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
+  box-shadow: 0px 1px 10px 0px black;
+}
+
+.App-link {
+  display: contents;
+  color: #61dafb;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nav {
+  display: flex;
+}
+
+/* .card-holder{
+} */
+
+.card{
+  display: inline-block;
+  margin: 20px;
+  width: min-content;
+  box-shadow: 2px 2px 15px 0px #00000066;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.card:hover{
+  box-shadow: 1px 1px 5px 1px #00000066;
+}
+
+.card-description{
+  height: 44px;
+  overflow: hidden;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.card-poster{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.card-button{
+  margin: 8px;
+}
+
+button, .button{
+  font-size: 15px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #282c34;
+  color: aliceblue;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 0px 5px -1px black;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+button:hover, .button:hover{
+  background: aliceblue;
+  color: #282c34;
+  text-shadow: 0px 0px 1px black;
+  transition: all 0.4s;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page-header{
+  font-size: x-large;
+  margin-top: 100px;
+  margin-bottom: 15px;
+  background: #f7fdff;
+  padding: 25px;
+  color: #34383f;
+  text-shadow: 0px 0px 1px black;
+}
+
+form input{
+  margin: 10px;
+  font-size: medium;
+  padding: 5px;
+  font-family: auto;
+  border: 0;
+  border-bottom: 1px solid black;
+  padding-left: 15px;
+  transition: all 0.5s;
+}
+
+input:focus-visible{
+  outline: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+form{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+input.button, .cancel{
+  width: 200px;
+}
+
+.new-post, .get-more{
+  margin-top: 10px;
+  width: 20%;
+  padding: 10px;
+  background: #6d0c0c;
+}
+
+.new-post:hover{
+  background: wheat;
+}
