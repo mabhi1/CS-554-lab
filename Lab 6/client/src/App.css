@@ -1,0 +1,150 @@
+.App{
+  text-align: center;
+}
+
+.body{
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+  font-family: auto;
+}
+
+#root{
+  margin-bottom: 50px;
+}
+
+.card-title{
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: serif;
+}
+
+.card{
+  display: inline-flex;
+  margin: 20px;
+  transition: all 0.1s;
+}
+
+.card:hover{
+  box-shadow: 0px 0px 4px -2px black;
+}
+
+.card-holder{
+  text-align: center;
+  margin-left: 3%;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover{
+  color: #000;
+}
+
+.btn{
+  margin: 10px;
+}
+
+.row{
+  --bs-gutter-x: 0
+}
+
+.page-link{
+  color: #0044a8;
+  border: 0;
+  border-radius: 6px;
+}
+
+.page-link:focus{
+  box-shadow: none;
+}
+
+.page-item.active .page-link{
+  border-radius: 6px;
+  background-color: #0044a8;
+}
+
+.page-item:not(:first-child) .page-link{
+  margin-left: 0;
+}
+
+.navbar-light .navbar-brand{
+  color: #0044a8;
+}
+
+.btn-check:focus+.btn-dark, .btn-dark:focus,
+.btn-check:active+.btn-dark, .btn-check:checked+.btn-dark, .btn-dark.active, .btn-dark:active, .show>.btn-dark.dropdown-toggle,
+.btn-dark{
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+  box-shadow: none;
+  transition: all 0.5s;
+}
+
+.btn-dark:hover{
+  transition: all 0.5s;
+  background-color: #0044a8;
+  border-color: #0044a8;
+  color: #fff;
+}
+
+.form-control{
+  width: 20%;
+  margin: 10px;
+  margin-left: 30%;
+  float: left;
+}
+
+.page-text{
+  font-size: large;
+  text-align: center;
+  background: aliceblue;
+  padding: 7px;
+  font-family: monospace;
+  float: left;
+  width: 80%;
+  margin: 10px;
+  margin-left: 25px;
+}
+
+.pokemon_card,
+.pokemon_card:hover{
+  width: 380px;
+  text-align: center;
+  font-family: monospace;
+  font-size: larger;
+  text-transform: capitalize;
+  border: 0;
+  box-shadow: none;
+}
+
+.card-img{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-primary.disabled, .btn-primary:disabled{
+  opacity: 1;
+  background-color: #767676;
+  border-color: #767676;
+}
+
+.alert-primary{
+  color: #084298;
+  background-color: #cfe2ff;
+  border-color: #b6d4fe;
+  line-height: 0.5em;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar{
+  box-shadow: 0px 0px 5px -2px black;
+}
